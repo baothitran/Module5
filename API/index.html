@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <nav class="navigation">
+                <ul class="pagination">
+                    <li id="previous" class="page-item"><a role="button" class="page-link"
+                            onclick="changePage('previous')">Previous</a></li>
+                    <li id="next" class="page-item"><a role="button" class="page-link"
+                            onclick="changePage('next')">Next</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row" id="post-list">
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="post.js"></script>
+
+</body>
+
+</html>
