@@ -3,10 +3,8 @@ import './App.css';
 import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
-import CountAgeUseState from './components/CountAgeUseState';
-import CountAppUseState from './components/CountAppUseState';
-import Register from './components/TwoWayBinding';
-import Playlist from './components/Playlist';
+import UseEffect from './components/UseEffect';
+import Content from './components/Content';
 
 // Class Component -> OOP
 // Function Component -> Hooks 
@@ -46,14 +44,10 @@ function TextField() {
 
 function App() {
   return (
-    <div className='container .bg-light.bg-gradient'>
-      <div className='listForm'>
-        <Playlist />
-      </div>
+    <div className='container'>
+      <Content />
     </div>
   );
 }
-
-
 
 export default App;

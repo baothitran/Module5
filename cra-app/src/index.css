@@ -5,27 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(https://static.vecteezy.com/system/resources/previews/003/588/032/original/pastel-ombre-background-in-pink-and-purple-vector.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+  background-image: url();
 }
-.listForm{
-    background-color:white;
-    height: 100vh;
-}
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.avatar-md{
+  border: lightgrey 1px solid;
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+}
 
 
-.form-control{
-  border: solid;
+.form-control {
+  border: none;
   outline: none;
-  border:1px solid red;
+  border: 1px solid red;
   padding: 20px 5px;
   border-radius: 5px;
-  /* box-shadow: 2px 2px 2px gray; */
+  box-shadow: 2px 2px 2px gray;
 }
